@@ -4,7 +4,8 @@ html {
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-justify: center;
+    text-align: center;
+    margin: auto;
 
 }
 
@@ -16,12 +17,17 @@ header {
     justify-content: space-between;
     display: flex;
     box-sizing: border-box;
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
-header #logo {
+header #logo img {
     margin-left: 10px;
     height: 50px;
     display: inline; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header #nav ul {
@@ -38,4 +44,90 @@ header #nav li {
     display: block;
     padding: 16px;
     float: right;
+}
+.container {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-image: url("images/img-mission-background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container #mission {
+    background-color: black;
+    width: 100%;
+}
+
+.container-month {
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+.offerings {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+figure img {
+    height: 200px;
+    width: 300px;
+
+}
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+figure {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.locations {
+    background-image: url("images/img-locations-background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 75px;
+}
+.locations #addresses {
+    display: inline-flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.locations .address {
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    margin: 0px 20px;
+    opacity: 1;
+}
+
+.locations .address h4 {
+    font-weight: normal;
+
+}
+.contact {
+    height: 200px;
+    text-align: center;
+}
+footer {
+    margin-left: 20px;
+    text-align: left;
 }
